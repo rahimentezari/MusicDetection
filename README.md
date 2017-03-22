@@ -16,4 +16,4 @@ For this project I have used the following musics: <br />
 - ZIB <br />
 You can download the whole dataset here: https://www.dropbox.com/s/y99bup424goseig/music_detection.rar?dl=0
 The table below show more information about this dataset:
-![alt tag] (https://raw.githubusercontent.com/rahimentezari/MusicDetection/blob/master/Music.png)
+![alt tag](https://github.com/rahimentezari/MusicDetection/blob/master/Music.png)
