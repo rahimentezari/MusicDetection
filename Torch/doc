@@ -1,0 +1,20 @@
+>>mp3 to frames: sox the_bourne_identity_chunk4.mp3 out.mp3 trim 0 0.200 : newfile : restart
+
+
+>>remove lines : sed -e '1,3d' < t.txt
+
+
+>>replace: sed -i 's/original/new/g' file.txt
+
+
+>>add prefix to each line: sed -i -e 's/^/prefix/' file-----sed -i -e 's/^/\/opt\/workdir/'
+
+
+>>remove the first 2 char: sed 's/^..//' file1.txt > file2.txt
+>>							sed 's/..$//' filename.txt
+
+>>remove last char: 
+
+
+>>/speechtemp/meghdad/soundnet1$ CUDA_VISIBLE_DEVICES=1 finetune=models/soundnet8_final.t7 data_list=DECASE_2016/fold1_train_integer_labels.txt test_list=DECASE_2016/fold1_evaluate_integer_labels.txt data_root=/home/deepface/Documents/temp_test_speech/TUT-acoustic-scenes-2016-development nClasses=15 name=mynet1 th main_finetune_withtest.lua
+>>CUDA_VISIBLE_DEVICES=0 finetune=models/soundnet8_final.t7 data_list=movies/Train/Trainpathlabel.txt test_list=movies/Adapt/Adaptpathlabel.txt data_root=/home/deepface/Rahim/soundnet-VAD/movies nClasses=2 name=myVADnet th main_finetune_withtest.lua
