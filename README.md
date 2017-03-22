@@ -1,5 +1,5 @@
 # MusicDetection
-This Project is about Music Detection. in which machine detect the frames music is playing(like Voice Activity Detection).
+This Project is about Music Detection, in which machine detects the frames music is playing(like Voice Activity Detection).
 For this project I have used the following musics: <br />
 - Alpen Donau Adria <br />
 - Barbara Karlich Show <br />
@@ -14,5 +14,5 @@ For this project I have used the following musics: <br />
 - Starmania <br />
 - Sturm der Liebe <br />
 - ZIB <br />
-
 You can download the whole dataset here: https://www.dropbox.com/s/y99bup424goseig/music_detection.rar?dl=0
+This is about 
